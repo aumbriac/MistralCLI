@@ -34,7 +34,7 @@ Now that you have the MistralCLI installed on your system, you can use it direct
 
 - Example usage: `mistral What is the meaning of life?`
 
-You can optionally use a different model by specifying an optional `-m` flag: `mistral -m medium What is the meaning of life?`
+Note: `mistral-tiny` is the default model, but you can use either `mistral-small` or `mistral-medium` by specifying an optional `-m` flag with the model suffix: `mistral -m medium What is the meaning of life?`
 
 ## License
 
