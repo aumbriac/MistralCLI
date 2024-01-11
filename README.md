@@ -6,7 +6,7 @@ MistralCLI is a simple open source command-line interface (CLI) written in Rust 
 
 ## Prerequisites
 
-- **Rust**: You can install Rust by following the instructions on the official website: [Rust Installation](https://www.rust-lang.org/learn/get-started).
+- **Rust**: You can install Rust by following the instructions on the official website: [https://www.rust-lang.org/learn/get-started](https://www.rust-lang.org/learn/get-started).
 
 ## Usage
 
