@@ -14,9 +14,13 @@ Before you can interact with the API, you need to set your Mistral API key.
 
 ### Setting Your Mistral API Key
 
-1. Obtain a Mistral API key from the Mistral website: [https://mistral.ai](https://mistral.ai)
+1. Obtain a Mistral API key from the Mistral website: [admin.mistral.ai/organization/api-keys](https://admin.mistral.ai/organization/api-keys)
 2. Add your API key to your shell environment. You can do this by adding the following line to your `~/.bashrc` (or `~/.bash_profile` on Mac) file: `export MISTRAL_API_KEY=your-api-key`
 3. To apply the changes, either restart your shell session or run the following command: `source ~/.bashrc  # or source ~/.bash_profile on Mac`
+
+Alternatively:
+1. Obtain a Mistral API key from the Mistral website: [admin.mistral.ai/organization/api-keys](https://admin.mistral.ai/organization/api-keys)
+2. Set your API key in the configuration located at /etc/mistral-cli/config.json
 
 ## Installation
 
@@ -30,7 +34,7 @@ Before you can interact with the API, you need to set your Mistral API key.
 
 ### Using MistralCLI
 
-Now that you have the MistralCLI installed on your system, you can use it directly from within your shell environment.
+Now that you have the MistralCLI installed on your system, you can use it directly from within your shell environment. You can check all available options by running `mistral -h`
 
 - Example usage: `mistral What is the meaning of life?`
 

@@ -1,6 +1,6 @@
 [package]
 name = "mistral"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
@@ -12,3 +12,6 @@ indicatif = "0.16"
 dotenv = "0.15"
 env_logger = "0.9"
 futures = "0.3"
+chrono = "0.4"
+base64 = "0.21"
+mime_guess = "2.0"
